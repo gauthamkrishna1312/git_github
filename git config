@@ -3,3 +3,12 @@ git config
 
 $ git config --global user.name "John Doe"
 $ git config --global user.email "johndoe@example.com"
+
+to check status
+$ git status
+
+git add .
+git commit -m "<Message>"
+
+to view the commits
+git log --all
