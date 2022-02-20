@@ -1,14 +1,30 @@
-
 git config
 
 $ git config --global user.name "John Doe"
 $ git config --global user.email "johndoe@example.com"
 
-to check status
+To initialize git in folder
+
+$ git init
+
+To check status
 $ git status
 
-git add .
-git commit -m "<Message>"
+To stage the changes and commit the code to track
+$ git add .
+$ git commit -m "<Message>"
 
-to view the commits
-git log --all
+To view the commits
+$ git log --all
+
+To make main as the default bracnch
+$ git branch -M main
+
+To check how meny remote are there in the repository
+$ git remote
+
+To add a remote in a repository
+$ git remote add <rmotename> <githubrepolink>
+
+To upload the code to github
+$ git push -u <remotename> <branchname>
