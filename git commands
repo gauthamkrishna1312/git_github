@@ -12,13 +12,25 @@ $ git status
 
 To stage the changes and commit the code to track
 $ git add .
+$ git add <filename>
 $ git commit -m "<Message>"
+
+To unstage the changes tou added
+$ git reset .
+$ git reset <filename>
 
 To view the commits
 $ git log --all
+$ git log --all --graph
 
 To make main as the default bracnch
 $ git branch -M main
+$ git branch // To check currnent branch
+$ git branch <branch name> // To creat new branch
+
+To rename branch
+$ git branch -m <oldname> <newname> // At any Branch
+$ git branch -m <newname> // Current Branch
 
 To check how meny remote are there in the repository
 $ git remote
