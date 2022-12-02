@@ -12,3 +12,4 @@ Refer this link
 
 Authenticate github using github CLI
 * https://cli.github.com/manual/gh_auth_login
+* Always take and safely keep the backupcodes for the github after you done the two factor authendication
