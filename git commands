@@ -1,3 +1,5 @@
+Basic git commands are here, these are vital and beginer cammands
+
 git config
 
 $ git config --global user.name "John Doe"
